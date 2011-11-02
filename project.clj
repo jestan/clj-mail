@@ -1,7 +1,8 @@
-(defproject clj-mail "0.1.5"
+(defproject org.clojars.hms/clj-mail "0.1.5"
   :description "Send and receive emails from Clojure."
-  :repositories {"java-net" "http://download.java.net/maven/2"}
-  :dependencies [[org.clojure/clojure "1.2.0"]
-                 [org.clojure/clojure-contrib "1.2.0"]
+  :dependencies [[org.clojure/clojure "1.3.0"]
                  [javax.mail/mail "1.4.3"]]
-  :dev-dependencies [[lein-clojars "0.5.0"]])
+  :dev-dependencies [[swank-clojure "1.3.2"]]
+
+  :repositories {"releases" "http://192.168.0.7:8080/archiva/repository/internal/"
+                 "snapshots" "http://192.168.0.7:8080/archiva/repository/snapshots/"})

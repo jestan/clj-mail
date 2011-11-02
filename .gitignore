@@ -1,0 +1,6 @@
+lib
+*.jar
+.emacs.desktop
+/pom.xml
+/classes/
+/.lein-failures
